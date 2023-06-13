@@ -1,0 +1,28 @@
+@import url("../../assets/css/common.css");
+
+.about_info {
+  width: 95%;
+  padding: 1em 0em;
+}
+.about_info h2 {
+  font-size: 2.5em;
+}
+.about_info p {
+  margin: 0.5em;
+  text-transform: capitalize;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.btn {
+  letter-spacing: 1.6px;
+  background-color: var(--secondary-color);
+  padding: 0.6em;
+  margin: 0.6em;
+}
+.btn i {
+  padding: 0 0.5em;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+}

@@ -2,15 +2,26 @@
   --nav-bg-color: white;
   --hero-text-title-color: #002057;
   --secondary-color: rgb(109, 40, 217);
+  --border-color: rgba(146, 161, 176, 0.3);
+  --border-bg-color: rgba(255, 255, 255, 0.1);
 
   /* --text-color: #fff;
   --main-color: #0ef; */
 }
-
-.background_image {
+body {
   position: relative;
   background-image: url("../images/background.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.content_wrapper {
+  margin: 0;
+  padding: 0;
+  height: calc(100vh - 60px);
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

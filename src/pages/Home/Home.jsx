@@ -8,7 +8,7 @@ const Home = () => {
         <div className="container-fluid background_image">
           <div className="row">
             {/* INFO COLUMN */}
-            <div className="col-12 col-lg-6 hero_wrapper order-2 order-lg-1">
+            <div className="col-12 col-lg-6 content_wrapper order-2 order-lg-1">
               <div className="hero_text">
                 <h2>Hi, There</h2>
                 <h1>I&#39;m HARSH ATHAVALE</h1>

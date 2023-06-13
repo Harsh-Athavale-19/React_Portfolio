@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    "img_size": 40
+  },
+  {
+    "id": 4,
+    "name": "React JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 5,
+    "name": "React JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 6,
+    "name": "React JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 7,
+    "name": "React JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 8,
+    "name": "React JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "img_size": 40
+  }
+]

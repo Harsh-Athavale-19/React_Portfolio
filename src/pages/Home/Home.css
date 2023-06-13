@@ -1,14 +1,5 @@
 @import url("../../assets/css/common.css");
 
-.hero_wrapper {
-  margin: 0;
-  padding: 0;
-  height: calc(100vh - 60px);
-  /* width: 100%; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .hero_text {
   padding: 1em;
   font-size: 1em;
