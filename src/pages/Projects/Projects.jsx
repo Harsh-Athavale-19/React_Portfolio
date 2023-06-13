@@ -18,7 +18,9 @@ const Projects = () => {
                       <a href={project.live} target="_blank" rel="noreferrer">
                         <button className="project_card_btn">Live</button>
                       </a>
-                      <button className="project_card_btn">Live</button>
+                      <a href={project.github} target="_blank" rel="noreferrer">
+                        <button className="project_card_btn">Github</button>
+                      </a>
                     </div>
                   </div>
                 </div>

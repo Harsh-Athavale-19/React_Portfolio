@@ -1,37 +1,32 @@
 [
   {
     "id": 1,
-    "name": "Project 1",
-    "img": "img/PlayMedia.jpg",
-    "github": "",
+    "name": "Play Media",
+    "subtitle": "A Youtube Clone",
+    "img": "img/PlayMedia.png",
+    "github": "https://github.com/Harsh-Athavale-19/Play-Media---A-Youtube-Clone",
     "live": "https://play-media-by-harsh-athavale.web.app/"
   },
+
   {
     "id": 2,
-    "name": "Project 2",
-    "img": "img/PlayMedia.png",
-    "github": "",
-    "live": "https://play-media-by-harsh-athavale.web.app/"
+    "name": "Weather Forecaster",
+    "img": "img/WeatherForecast.png",
+    "github": "https://github.com/Harsh-Athavale-19/Weather-Forecast-App",
+    "live": "https://weather-forecast-app-by-harsh.web.app/"
   },
   {
     "id": 3,
-    "name": "Project 3",
-    "img": "img/WeatherForecast2.png",
-    "github": "",
-    "live": "https://play-media-by-harsh-athavale.web.app/"
+    "name": "Covid-19 Tracker",
+    "img": "img/Covid19Tracker.jpg",
+    "github": "https://github.com/Harsh-Athavale-19/COVID-19-Tracker",
+    "live": "https://covid19-tracker-harsh-athavale.web.app/"
   },
   {
     "id": 4,
-    "name": "Project 3",
-    "img": "img/WeatherForecast2.png",
+    "name": "Tic Tac Toe",
+    "img": "img/Tic_Tac_Toe.png",
     "github": "",
-    "live": "https://play-media-by-harsh-athavale.web.app/"
-  },
-  {
-    "id": 5,
-    "name": "Project 3",
-    "img": "img/WeatherForecast2.png",
-    "github": "",
-    "live": "https://play-media-by-harsh-athavale.web.app/"
+    "live": "https://tic-tac-toe-by-harsh-athavale.netlify.app/"
   }
 ]

@@ -26,7 +26,7 @@ const About = () => {
                   technologies and techniques in the field, and I am always looking for
                   opportunities to learn and grow.
                 </p>
-                <a href="#">
+                <a href="/src/assets/pdf/resume.pdf" download>
                   <button className="btn btn-primary ">
                     Resume <i className="fas fa-download "></i>
                   </button>

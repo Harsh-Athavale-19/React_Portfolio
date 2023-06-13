@@ -25,26 +25,95 @@
   },
   {
     "id": 5,
-    "name": "React JS",
-    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "name": "Bootstrap",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
     "img_size": 40
   },
   {
     "id": 6,
-    "name": "React JS",
-    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
-    "img_size": 40
+    "name": "Express",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+    "img_size": 50
   },
   {
     "id": 7,
-    "name": "React JS",
-    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "name": "Redux",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
     "img_size": 40
   },
   {
     "id": 8,
-    "name": "React JS",
-    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    "name": "Tailwind CSS",
+    "img": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    "img_size": 40
+  },
+  {
+    "id": 9,
+    "name": "SASS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+    "img_size": 40
+  },
+  {
+    "id": 10,
+    "name": "Mongo DB",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 11,
+    "name": "MySQL",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 12,
+    "name": "Node JS",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    "img_size": 40
+  },
+  {
+    "id": 13,
+    "name": "C",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+    "img_size": 40
+  },
+  {
+    "id": 14,
+    "name": "CPP",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    "img_size": 40
+  },
+
+  {
+    "id": 15,
+    "name": "Java",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+    "img_size": 40
+  },
+
+  {
+    "id": 16,
+    "name": "Python",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "img_size": 40
+  },
+
+  {
+    "id": 17,
+    "name": "Adobe XD",
+    "img": "https://cdn.worldvectorlogo.com/logos/adobe-xd.svg",
+    "img_size": 40
+  },
+  {
+    "id": 18,
+    "name": "Firebase",
+    "img": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    "img_size": 40
+  },
+  {
+    "id": 19,
+    "name": "Android",
+    "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg",
     "img_size": 40
   }
 ]

@@ -4,9 +4,7 @@
   --secondary-color: rgb(109, 40, 217);
   --border-color: rgba(146, 161, 176, 0.3);
   --border-bg-color: rgba(255, 255, 255, 0.1);
-
-  /* --text-color: #fff;
-  --main-color: #0ef; */
+  --project-card-body: #1f3d4738;
 }
 
 .content_wrapper {
