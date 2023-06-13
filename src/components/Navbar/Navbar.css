@@ -13,5 +13,5 @@ nav {
 }
 
 .nav-link:hover {
-  color: var(--second-bg-color);
+  color: var(--secondary-color);
 }

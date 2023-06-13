@@ -1,7 +1,16 @@
 :root {
   --nav-bg-color: white;
-  --second-bg-color: rgb(109, 40, 217);
+  --hero-text-title-color: #002057;
+  --secondary-color: rgb(109, 40, 217);
 
   /* --text-color: #fff;
   --main-color: #0ef; */
+}
+
+.background_image {
+  position: relative;
+  background-image: url("../images/background.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }

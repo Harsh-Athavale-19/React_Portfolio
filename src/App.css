@@ -10,3 +10,17 @@
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
 }
+.test {
+  border: 1px solid red;
+}
+.test2 {
+  border: 1px solid blue;
+}
+.test2 {
+  border: 1px solid greenyellow;
+}
+
+section {
+  min-height: 100vh;
+  padding-top: 5rem;
+}
