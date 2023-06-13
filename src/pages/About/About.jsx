@@ -5,7 +5,7 @@ import SkillsCard from "../../components/SkillsCard/SkillsCard";
 const About = () => {
   return (
     <>
-      <section className="about test" id="about">
+      <section className="about" id="about">
         <div className="container">
           <h2 className="text-center mb-5 mt-3">ABOUT ME</h2>
           <div className="row">
@@ -28,7 +28,7 @@ const About = () => {
                 </p>
                 <a href="#">
                   <button className="btn btn-primary ">
-                    Download Resume <i className="fas fa-download "></i>
+                    Resume <i className="fas fa-download "></i>
                   </button>
                 </a>
               </div>

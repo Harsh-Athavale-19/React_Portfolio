@@ -8,13 +8,6 @@
   /* --text-color: #fff;
   --main-color: #0ef; */
 }
-body {
-  position: relative;
-  background-image: url("../images/background.jpg");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
 
 .content_wrapper {
   margin: 0;
