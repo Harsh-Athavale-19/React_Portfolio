@@ -8,8 +8,13 @@ const SkillsCard = () => {
       <div className="container">
         <div className="row row-cols-md-5">
           {Skills.map(({ id, name, img, img_size }) => (
-            <div key={id} className="col">
-              <div className="skill_circle">
+            <div key={id} className="col skills">
+              <div
+                className="skill_circle"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                title={name}
+              >
                 <img src={img} alt={name} width={img_size} height={img_size} />
               </div>
             </div>

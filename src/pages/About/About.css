@@ -6,6 +6,8 @@
 }
 .about_info h2 {
   font-size: 2.5em;
+  margin: 0.5em;
+  font-weight: 600;
 }
 .about_info p {
   margin: 0.5em;
@@ -19,10 +21,34 @@
   background-color: var(--secondary-color);
   padding: 0.6em;
   margin: 0.6em;
+  border: none;
+  outline: none;
 }
 .btn i {
   padding: 0 0.5em;
 }
 .btn:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--button-hover);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .about_info h2 {
+    font-size: 1.5em !important;
+    text-align: center;
+    padding-bottom: 1em;
+  }
+  .about_info {
+    font-size: 1em !important;
+  }
+  .resume_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills_col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -1,7 +1,8 @@
 :root {
   --nav-bg-color: white;
   --hero-text-title-color: #002057;
-  --secondary-color: rgb(109, 40, 217);
+  --secondary-color: rgb(110, 40, 220);
+  --button-hover: rgb(130, 80, 230);
   --border-color: rgba(146, 161, 176, 0.3);
   --border-bg-color: rgba(255, 255, 255, 0.1);
   --project-card-body: #1f3d4738;

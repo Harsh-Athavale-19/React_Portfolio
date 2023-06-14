@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="text-center mb-5 mt-3">ABOUT ME</h2>
           <div className="row">
             {/* SKILLS CARD */}
-            <div className="col-12 col-lg-6 order-2 order-lg-1">
+            <div className="col-12 col-lg-6 order-2 order-lg-1 skills_col">
               <SkillsCard />
             </div>
 
@@ -26,11 +26,13 @@ const About = () => {
                   technologies and techniques in the field, and I am always looking for
                   opportunities to learn and grow.
                 </p>
-                <a href="/src/assets/pdf/resume.pdf" download>
-                  <button className="btn btn-primary ">
-                    Resume <i className="fas fa-download "></i>
-                  </button>
-                </a>
+                <div className="resume_btn">
+                  <a href="/src/assets/pdf/resume.pdf" download>
+                    <button className="btn btn-primary ">
+                      Resume <i className="fas fa-download "></i>
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
