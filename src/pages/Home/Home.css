@@ -4,6 +4,7 @@
   padding: 1em;
   font-size: 1em;
   font-weight: 800;
+  text-transform: capitalize;
 }
 .hero_text h1 {
   font-size: 2em;
