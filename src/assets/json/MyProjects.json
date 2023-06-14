@@ -24,9 +24,9 @@
   },
   {
     "id": 4,
-    "name": "Tic Tac Toe",
+    "name": "Tic-Tac-Toe",
     "img": "img/Tic_Tac_Toe.png",
-    "github": "",
+    "github": "https://github.com/Harsh-Athavale-19/React_Tic_Tac_Toe",
     "live": "https://tic-tac-toe-by-harsh-athavale.netlify.app/"
   }
 ]

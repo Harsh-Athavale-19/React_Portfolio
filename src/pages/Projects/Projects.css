@@ -1,4 +1,5 @@
 @import url("../../assets/css/common.css");
+
 .project_card {
   width: 350px;
   height: 250px;
@@ -40,7 +41,7 @@
 
 .project_card_title {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 500;
   padding-bottom: 1em;
   text-align: center;
@@ -49,6 +50,7 @@
 .project_card_btn {
   background: var(--secondary-color);
   padding: 10px 20px;
+  margin-left: 1em;
   width: fit-content;
   border-radius: 5px;
   text-transform: capitalize;
@@ -56,4 +58,5 @@
   outline: none;
   font-weight: 500;
   cursor: pointer;
+  color: white;
 }
