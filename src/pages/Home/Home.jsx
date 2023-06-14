@@ -1,5 +1,5 @@
 import "../../assets/css/common.css";
-import profileImage from "../../assets/images/harsh_photo3.jpg";
+import profileImage from "../../assets/images/harsh_photo.jpg";
 import "./Home.css";
 const Home = () => {
   return (
@@ -15,6 +15,21 @@ const Home = () => {
                 <h2>
                   I am into <span>Frontend Development</span>
                 </h2>
+                <div className="contact_icons">
+                  <a
+                    href="https://www.linkedin.com/in/harsh-ashok-athavale/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fa fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Harsh-Athavale-19" target="_blank" rel="noreferrer">
+                    <i className="fa fa-github"></i>
+                  </a>
+                  <a href="mailto:harshashokathavale@gmail.com">
+                    <i className="fa fa-envelope"></i>
+                  </a>
+                </div>
               </div>
             </div>
 
