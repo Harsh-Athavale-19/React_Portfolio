@@ -12,6 +12,10 @@ nav {
   font-weight: 400;
 }
 
-.nav-link:hover {
+.nav-item .active {
+  color: var(--secondary-color);
+}
+
+header .nav-item a:hover {
   color: var(--secondary-color);
 }
