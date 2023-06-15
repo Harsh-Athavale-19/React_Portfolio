@@ -27,7 +27,7 @@ const About = () => {
                   opportunities to learn and grow.
                 </p>
                 <div className="resume_btn">
-                  <a href="/src/assets/pdf/resume.pdf" download>
+                  <a href="/src/assets/pdf/Harsh_Resume.pdf" download>
                     <button className="btn btn-primary ">
                       Resume <i className="fas fa-download "></i>
                     </button>
