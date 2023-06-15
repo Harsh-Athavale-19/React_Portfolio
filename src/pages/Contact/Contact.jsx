@@ -13,12 +13,12 @@ const Contact = () => {
 
     emailjs.sendForm("service_email", "template_portfolio", form.current, "ZtG07zYdELDigI0Bw").then(
       (result) => {
-        console.log(result.text);
         toast.success(`Successfully Sent Message`);
+        console.log(result.text);
       },
       (error) => {
-        console.log(error.text);
         toast.error(`Something Error Occurred `);
+        console.log(error.text);
       }
     );
 
@@ -27,16 +27,16 @@ const Contact = () => {
   return (
     <>
       <section className="contact" id="contact">
+        <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
+
         <div className="container">
           <h2 className="text-center mb-5 mt-3">CONTACT ME</h2>
           <div className="container contact_card_wrapper">
             <div className="card contact_card">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="mb-3">
-                  <label htmlFor="inputName" className="form-label">
-                    Name
-                  </label>
                   <input
+                    placeholder="Name"
                     type="text"
                     className="form-control"
                     id="inputName"
@@ -46,10 +46,8 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="inputEmail" className="form-label">
-                    Email
-                  </label>
                   <input
+                    placeholder="Email"
                     type="email"
                     className="form-control"
                     id="inputEmail"
@@ -59,10 +57,8 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="inputSubject" className="form-label">
-                    Subject
-                  </label>
                   <input
+                    placeholder="Subject"
                     type="text"
                     className="form-control"
                     id="inputSubject"
@@ -72,10 +68,8 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="textAreaMessage" className="form-label">
-                    Message
-                  </label>
                   <textarea
+                    placeholder="Message"
                     className="form-control"
                     id="textAreaMessage"
                     rows="3"
@@ -91,7 +85,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <ToastContainer autoClose={5000} theme="colored" newestOnTop={true} />
       </section>
     </>
   );

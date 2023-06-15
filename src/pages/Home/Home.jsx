@@ -1,7 +1,26 @@
+import { useRef } from "react";
 import "../../assets/css/common.css";
 import profileImage from "../../assets/images/harsh_photo.jpg";
 import "./Home.css";
+import Typed from "typed.js";
+import { useEffect } from "react";
+
 const Home = () => {
+  // Create reference to store the DOM element containing the animation
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Frontend Development ^1000", " Web Development ^1000", "React Development ^1000"],
+      typeSpeed: 50,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <>
       <section className="home" id="home">
@@ -13,7 +32,7 @@ const Home = () => {
                 <h2>Hi, There</h2>
                 <h1>I&#39;m HARSH ATHAVALE</h1>
                 <h2>
-                  I am into <span>Frontend Development</span>
+                  I am into <span ref={el}> Frontend Development</span>
                 </h2>
                 <div className="contact_icons">
                   <a
